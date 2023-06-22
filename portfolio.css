@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: auto;
+  }
+  .portfolio {
+    min-height: 100vh;
+    padding: 50px 15px;
+    background-color: rgb(7, 11, 65);
+    float: left;
+    width: 100%;
+  }
+  
+  .heading {
+    width: 100%;
+    float: left;
+  }
+  
+  .portfolio .heading h1 {
+    font-size: 55px;
+    color: white;
+    margin: 0px 0px 20px;
+    text-align: center;
+    letter-spacing: 0.5px;
+  }
+  
+  .portfolio .filter-btn {
+    float: left;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .portfolio .filter-btn ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .portfolio .filter-btn {
+    padding: 30px 0px 20px;
+  }
+  
+  .portfolio .filter-btn ul li {
+    display: inline-block;
+    background-color: #7068e4;
+    padding: 6px 55px;
+    color: white;
+    font-size: 36px;
+    border-radius: 5px;
+    margin: 0px 15px;
+    cursor: pointer;
+  }
+  
+  .portfolio .filter-btn ul > .active {
+    background: #ff9800;
+  }
+  
+  .portfolio .items {
+    float: left;
+    width: 100%;
+  }
+  
+  .portfolio .items .box {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    transition: all 1s ease;
+  }
+  
+  .portfolio .items .box .inner img {
+    width: 100%;
+    display: block;
+  }
